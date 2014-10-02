@@ -1,0 +1,114 @@
+/*Estilos*/
+/*Reset*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*----- Body --------*/
+body {
+	background-color: #dedede;
+	font-family: Arial, Helvetica;
+}
+
+figure img {
+	display: inline-block;
+	height: auto;
+	width: 100%;
+}
+
+a {
+	color: #f3f3f3;
+	text-decoration: none;
+}
+
+p {
+	color: gray;
+}
+
+
+/*------ Nav -------*/
+nav {
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	max-width: 30%;
+}
+
+/*----- Header -------*/
+header nav {
+	background-color: rgb(100, 200, 255);
+}
+
+header nav figure {
+	display: inline-block;
+	vertical-align: middle;
+	width: 25%;
+}
+
+header h1 {
+	font-size: 18px;
+}
+
+header h2 {
+	font-size: 15px;
+}
+
+nav ul li a {
+	display: inline-block;
+}
+
+/*------- Logo ------*/
+div {
+	margin-top: 10px;
+	text-align: center;
+}
+
+/*------- Section ------*/
+article figure {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10%;
+}
+
+.contenido {
+	vertical-align: center;
+}
+
+article {
+	background-color: white;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+	padding: 10px;
+	width: 90%;
+}
+
+article footer {
+	text-align: right;
+}
+
+article h1 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#likeDislike div {
+	display: inline-block;
+	max-width: 10%;
+	text-align: center;
+}
+
+#likeDislike img {
+	width: 55%;
+}
+
+.estrella {
+	display: inline-block;
+	float: right;
+}
+
+/*------- Aside ------*/
+
