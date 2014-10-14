@@ -1,0 +1,168 @@
+/*Estilos*/
+/*Reset*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	src: url('font/Roboto-Regular.ttf');
+}
+
+/*----- Body --------*/
+body {
+	background-color: #dedede;
+	font-family: Arial, Helvetica;
+}
+
+#contenedor {
+	margin-top: 10%;
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+}
+
+.formulario {
+	display: inline-block;
+	margin-top: 50px;
+	max-width: 30%;
+}
+
+.formulario input {
+	color: #a9a9a9;
+	font-family: 'Roboto', sans-serif;
+	height: 40px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	width: 97%;
+}
+
+.registrar {
+	background: #2990e7;
+	height: 35px;
+	padding-top: 3px;
+	text-align: center;
+	vertical-align: center;
+}
+
+input.registrar {
+	border: none;
+	color: white;
+}
+
+input.registrar:active {
+	background: #0f68b3;
+}
+
+.iniciar {
+	background: #c53367;
+	height: 35px;
+	padding-top: 3px;
+	text-align: center;
+	vertical-align: center;
+}
+
+input.iniciar {
+	border: none;
+	color: white;
+}
+
+input.iniciar:active {
+	background: #9a1e4a;
+}
+
+.formulario img {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+p {
+	color: #a9a9a9;
+	margin-top: 5px;
+	text-align: center;
+}
+
+/*----- Home --------*/
+.head {
+	background: #3d8abf;
+}
+
+header {
+	display: inline-block;
+	max-width: 150%;
+	padding-left: 8%;
+	padding-top: 10px;
+}
+
+li {
+	display: inline-block;
+	margin-left: 70px;
+	margin-bottom: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a img {	
+	vertical-align: middle;
+}
+
+a p{
+	color: white;
+	display: inline-block;
+}
+
+#productos {
+	margin-top: 2%;
+	padding-left: 14%;
+	text-align: left;
+}
+
+h3 {
+	color: #3d8abf;
+}
+
+hr {
+	border-width: 1px;
+	color: #3d8abf;
+	width: 75%;
+}
+
+h4 {
+	color: #4f4f4f;
+}
+
+article {
+	display: inline-block;
+	margin-right: 8%;
+	margin-top: 15px;
+}
+
+article p {
+	color: #aaaaaa;
+	font-size: 14px;
+	text-align: left;
+}
+
+.contenido {
+	background: white;
+	border-radius: 6px;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-top: 4%;
+	width: 180px;
+}
+
+.contenido2 {
+	display: inline-block;
+	padding-left: 10px;
+	width: 90%;
+}
+
+.contenido2 a {
+	margin-right: 70%;
+}
