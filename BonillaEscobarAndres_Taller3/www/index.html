@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Localización</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/dragDrop.js"></script>
+  <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+  <link rel="shortcut icon" href="../favicon2.ico" />
+
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+<body onload="init();">
+
+  <div class="container">  
+    <div class="flip">
+      <img id="arrow" src="img/down.png" />
+    </div>
+  </div>
+
+  <div class="container">    
+    <div class="opciones col-lg-12 col-md-12 col-sm-12 col-xs-4">
+      <ul>
+        <li>
+          <img id="img1" src="img/cc.png" draggable="true" ondragstart="drag(event)"/>  
+        </li>
+        <li>
+          <img id="img2" src="img/colegio.png" draggable="true" ondragstart="drag(event)"/>  
+        </li>
+        <li>
+          <img id="img3" src="img/restaurante.png" draggable="true" ondragstart="drag(event)"/>  
+        </li>
+        <li>
+          <canvas id="graphCanvas" ondrop="drop(event)" ondragover="allowDrop(event)" height="150" width="150"></canvas>
+        </li>
+      </ul>      
+    </div>
+  </div>
+
+  <input id="type" type="hidden" name="tipo" />
+
+  <div class="container">
+    <div id="map"></div>
+  </div>  
+  
+  <script src="js/vendor/jquery-2.1.1.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
